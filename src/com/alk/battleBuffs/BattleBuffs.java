@@ -24,12 +24,6 @@ public class BattleBuffs extends JavaPlugin{
 		PluginDescriptionFile pdfFile = plugin.getDescription();
 		pluginname = pdfFile.getName();
 		version = pdfFile.getVersion();
-//		File dir = this.getDataFolder();
-//        if (!dir.exists()){
-//        	dir.mkdirs();}
-//        
-//		ConfigController cc = new ConfigController();
-//        cc.setConfig(Util.load(getClass().getResourceAsStream("/default_files/config.yml"),dir.getPath() +"/config.yml"));
 		
 		PermissionController.loadPermissionsPlugin();
 

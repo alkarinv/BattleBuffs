@@ -106,7 +106,6 @@ public class BBCommandController  {
 		if (ewas.isEmpty()){
 			return sendMessage(p,"&eCouldn't recognize buff &6" + args[sindex + 0] +"&e try &6/buff list");}
 
-		//		if (args.length > sindex+1){try{ strength = Integer.valueOf(args[sindex+1])-1;} catch (Exception e){}}
 		if (args.length > sindex+1){try{ time = Integer.valueOf(args[args.length-1]);} catch (Exception e){}}
 		
 		boolean buffOther = true;
